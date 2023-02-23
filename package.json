@@ -1,0 +1,29 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "Training and observing the importance of Unit Testing using Jest testing framework",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "jest --no-cache --silent",
+    "test:watch": "jest --no-cache --watch"
+  },
+  "keywords": [
+    "training",
+    "observing",
+    "importance",
+    "unit",
+    "testing",
+    "jest",
+    "framework",
+    "basic"
+  ],
+  "author": "lightzane",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "jest": "^29.4.3",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
